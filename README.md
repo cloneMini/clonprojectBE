@@ -21,6 +21,6 @@ http://chamchipack.shop.s3-website.ap-northeast-2.amazonaws.com/
 - Design Tool: Figma
 - Tool : Git Hub, Notion, Git Book
 # 4. 핵심 기능
-- 에어비엔비 페이지
-- 리스트페이지 : 게시물 리스트와 지도 동시출력 및 필터기능 적용
-- 상세페이지 : 게시글 댓글리스트, 달력출력
+- S3 버킷에 여러개의 이미지 저장, 삭제 구현
+- 이메일, 아이디, 비밀번호를 정규식으로 입력 조건 설정
+- multer-s3 패키지 사용
