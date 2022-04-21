@@ -34,6 +34,7 @@ router.post('/hostAdd', authMiddleware, upload.array('postImg', 5), // 이미지
     const userProfile = res.locals.user.userProfile;
     const { postTitle, postDesc, postCharge, address, room, wifi, laundry, parkinglot, latitude, longitude } = req.body;    
     const postImg = [];
+    console.log(req.body)
     for (let i = 0; i < req.files.length; i++) {
       postImg.push(req.files[i]?.location);
     }
